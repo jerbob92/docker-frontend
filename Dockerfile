@@ -9,7 +9,7 @@ run     npm install -g bower
 run     npm install -g grunt-cli
 run     gpg --keyserver hkp://keys.gnupg.net --recv-keys D39DC0E3
 run     curl -L https://get.rvm.io | bash -s stable
+run     echo "source /etc/profile.d/rvm.sh" > ~/.bashrc
 run     /bin/bash -l -c "rvm install 2.1.2"
 run     /bin/bash -l -c "rvm use 2.1.2 --default"
 run     /bin/bash -l -c "gem install compass"
-run     echo "source /etc/profile.d/rvm.sh" > ~/.bashrc
